@@ -1,0 +1,10 @@
+---
+name: geodash-plugin-angular-pipes
+pipes:
+  - GeoDashPipeAppend.ts
+  - GeoDashPipeDefaultIfUndefinedOrBlank.ts
+  - GeoDashPipeExtract.ts
+  - GeoDashPipeMarkdowntoHTML.ts
+  - GeoDashPipePrepend.ts
+  - GeoDashPipeSlugify.ts
+  - GeoDashPipeTernaryDefined.ts
