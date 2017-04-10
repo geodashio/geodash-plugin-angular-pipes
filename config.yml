@@ -4,7 +4,7 @@ pipes:
   - GeoDashPipeAppend.ts
   - GeoDashPipeDefaultIfUndefinedOrBlank.ts
   - GeoDashPipeExtract.ts
-  - GeoDashPipeMarkdowntoHTML.ts
+  - GeoDashPipeMarkdownToHTML.ts
   - GeoDashPipePrepend.ts
   - GeoDashPipeSlugify.ts
   - GeoDashPipeTernaryDefined.ts
