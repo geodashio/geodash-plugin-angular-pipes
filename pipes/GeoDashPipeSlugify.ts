@@ -9,7 +9,7 @@ export class GeoDashPipeSlugify implements PipeTransform {
 
     if(geodash.util.isString(value))
     {
-      return value.toLowerCase().replace(" ", "_").replace("-", "_").replace("=", "_");
+      return value.toLowerCase().replace(new RegExp("(\\s|[-]|[=])", 'gi'), "_");
     }
     else
     {
