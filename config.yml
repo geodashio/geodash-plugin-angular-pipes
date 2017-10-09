@@ -2,9 +2,24 @@
 name: geodash-plugin-angular-pipes
 pipes:
   - GeoDashPipeAppend.ts
+  - GeoDashPipeDefaultIfUndefined.ts
   - GeoDashPipeDefaultIfUndefinedOrBlank.ts
+  - GeoDashPipeDefaultIfEmpty.ts
+  - GeoDashPipeEncodeBase64.ts
+  - GeoDashPipeExclude.ts
   - GeoDashPipeExtract.ts
+  - GeoDashPipeFormatArray.ts
+  - GeoDashPipeFormatFloat.ts
+  - GeoDashPipeFormatInteger.ts
+  - GeoDashPipeFormatTelephone.ts
+  - GeoDashPipeJoin.ts
+  - GeoDashPipeLowerCase.ts
   - GeoDashPipeMarkdownToHTML.ts
+  - GeoDashPipeMGRS.ts
   - GeoDashPipePrepend.ts
+  - GeoDashPipeSelect.ts
   - GeoDashPipeSlugify.ts
+  - GeoDashPipeSplit.ts
   - GeoDashPipeTernaryDefined.ts
+  - GeoDashPipeTitleCase.ts
+  - GeoDashPipeUpperCase.ts
