@@ -6,16 +6,22 @@ import { Pipe, PipeTransform } from '@angular/core';
 @Pipe({name: 'formatFloat'})
 export class GeoDashPipeFormatFloat implements PipeTransform {
   transform(value: any, decimals: number): any {
-    if(value != undefined && value !== "")
+    if(Array.isArray(value))
     {
-      if(decimals != undefined)
-      {
-        return value.toFixed(decimals);
-      }
-      else
-      {
-        return value.toString();
-      }
+      return value.map((x:any) => {
+        if(geodash.util.isDefined(x) && x !== "")
+        {
+          return geodash.util.isDefined(decimals) ? x.toFixed(decimals) : x.toString();
+        }
+        else
+        {
+          return "";
+        }
+      });
+    }
+    else if(geodash.util.isDefined(value) && value !== "")
+    {
+      return geodash.util.isDefined(decimals) ? value.toFixed(decimals) : value.toString();
     }
     else
     {

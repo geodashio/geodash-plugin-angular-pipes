@@ -8,6 +8,9 @@ pipes:
   - GeoDashPipeEncodeBase64.ts
   - GeoDashPipeExclude.ts
   - GeoDashPipeExtract.ts
+  - GeoDashPipeExtractMultiple.ts
+  - GeoDashPipeFilterDefined.ts
+  - GeoDashPipeFormatAddress.ts
   - GeoDashPipeFormatArray.ts
   - GeoDashPipeFormatFloat.ts
   - GeoDashPipeFormatInteger.ts
@@ -17,6 +20,7 @@ pipes:
   - GeoDashPipeMarkdownToHTML.ts
   - GeoDashPipeMGRS.ts
   - GeoDashPipePrepend.ts
+  - GeoDashPipeReplace.ts
   - GeoDashPipeSelect.ts
   - GeoDashPipeSlugify.ts
   - GeoDashPipeSplit.ts
